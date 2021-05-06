@@ -23,7 +23,7 @@
 // [output] array.array.string
 
 function wordCountEngine(document) {
-  //lower case the whole string, split the
+  //lower case the whole string, split them at empty spaces
   const wordMap = new Map();
   const wordList = document.toLowerCase().split(" ");
   let largestCount = 0;
